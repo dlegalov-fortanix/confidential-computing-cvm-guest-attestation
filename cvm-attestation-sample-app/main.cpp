@@ -62,6 +62,7 @@ void usage(char* programName) {
 }
 
 int main(int argc, char* argv[]) {
+    printf("This executable has been modified by Fortanix, Inc, DO NOT USE IN PRODUCTION.\n")
     std::string attestation_url;
     std::string nonce;
     std::string output_type;
